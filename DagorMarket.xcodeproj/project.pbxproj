@@ -34,6 +34,7 @@
 		18E55B442B65165500062543 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 18E55B432B65165500062543 /* FirebaseAuth */; };
 		18F527042B5CB52500C3521E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F527032B5CB52500C3521E /* AddView.swift */; };
 		18F527062B5CB79A00C3521E /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F527052B5CB79A00C3521E /* Header.swift */; };
+		18FB6F1A2B65471B00CC2F55 /* RegistedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB6F192B65471B00CC2F55 /* RegistedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		18B2EB512B64EF45002E23CD /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
 		18F527032B5CB52500C3521E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		18F527052B5CB79A00C3521E /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		18FB6F192B65471B00CC2F55 /* RegistedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				18AAC5902B5FBD8000560966 /* BasketController.swift */,
 				18A4E9512B643A3C00802C25 /* TabBarController.swift */,
 				18B2EB512B64EF45002E23CD /* SignInController.swift */,
+				18FB6F192B65471B00CC2F55 /* RegistedViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				188744632B5E353B0020C65D /* Protocol.swift in Sources */,
 				18B2EB522B64EF45002E23CD /* SignInController.swift in Sources */,
 				18F527042B5CB52500C3521E /* AddView.swift in Sources */,
+				18FB6F1A2B65471B00CC2F55 /* RegistedViewController.swift in Sources */,
 				185AA93F2B5C134500F79703 /* GroupComponentsCell.swift in Sources */,
 				188744602B5E34E90020C65D /* Extension.swift in Sources */,
 				18AAC58F2B5FBD4600560966 /* FavoriteComponent.swift in Sources */,

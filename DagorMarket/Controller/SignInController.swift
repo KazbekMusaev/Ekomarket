@@ -185,15 +185,8 @@ final class SignInController: UIViewController {
     
     private lazy var registredAction = UIAction { [weak self] _ in
         guard let self = self else { return}
-        guard let email = self.emailTextField.text else { print("Введите email"); return}
-        guard let password = self.passwordTextField.text else { print("Введите пароль"); return}
-        FirebaseManager.firebaseManager.createNewUser(email: email, password: password) { isReg in
-            if isReg == true {
-               print("Регистрация прошла успешно")
-            } else {
-                print("Вы не смогли зарегистрироваться")
-            }
-        }
+        let vc = RegistedViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
 
